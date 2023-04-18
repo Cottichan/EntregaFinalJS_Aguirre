@@ -1,0 +1,34 @@
+[
+    {
+        "id":"arabiga",
+        "nombre" : "Café Arábigo",
+        "desc": "300 grs",
+        "precio" : "500",
+        "imgSrc" : "images/arabigo.jpg"
+       
+    },
+    {
+        "id":"houseBlend",
+        "nombre" : "House Blend",
+        "desc": "450",
+        "precio" : "300 grs",
+        "imgSrc" : "images/houseblend.jpg"
+       
+    },
+    {
+        "id":"robusta",
+        "nombre" : "Café Robusta",
+        "desc": "300 grs",
+        "precio" : "550",
+        "imgSrc" : "images/robusta.jpg"
+       
+    },
+    {
+        "id":"cafeteraItaliana",
+        "nombre" : "Cafetera Italiana",
+        "desc": "Cafetera italiana blanca",
+        "precio" : "870",
+        "imgSrc" : "images/cafeteraitaliana.jpg"
+       
+    }
+]

@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+i{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D5BDAF;
+    color: white;
+    padding: 25px 60px;
+    margin-bottom: 100px;
+}
+
+.carrito{
+    position: relative;
+    background-color: white;
+    color: #D5BDAF;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cantCarrito{
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    font-size: 16px;
+    background-color: #f08080;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.tienda{
+    display: grid;
+    grid-template-columns: repeat(4, 223px);
+    gap: 30px;
+    justify-content: center;
+}
+
+@media (max-width:1000px){
+    .tienda{
+        grid-template-columns: repeat(2, 223px);
+    }
+}
+
+@media (max-width:500px){
+    .tienda{
+        grid-template-columns: repeat(1, 223px);
+    }
+}
+.producto{
+    border: 2px solid #D5BDAF;
+    border-radius: 5px;
+}
+
+.detalles{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.precio-cantidad{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 16px;
+}
+
+.bi-dash-lg{
+    color: red;
+}
+
+.bi-plus-lg{
+    color: green;
+}
+
+.bi-trash3-fill{
+    color:#f08080;
+}
+
+/** estilo para etiquetas y botones **/
+
+.texto-centro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.botonHome, 
+.pagar,
+.vaciar-carrito{
+    background-color: #D5BDAF;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.vaciar-carrito {
+    background-color: #f08080;
+}
+
+/** estilo para el carrito **/
+
+.carrito-compras{
+    display: grid;
+    grid-template-columns: repeat(1,320px);
+    justify-content: center;
+    gap: 15px;
+}
+
+.producto-carrito{
+    border: 2px solid #D5BDAF;
+    border-radius: 5px;
+    display: flex;
+}
+
+.titulo-precio-x{
+    width: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.titulo-precio{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.precio-item-carrito{
+    background-color: #D5BDAF;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 6px;
+}
